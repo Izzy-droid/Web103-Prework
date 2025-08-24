@@ -1,0 +1,175 @@
+
+.test{
+    background-color: black;
+}
+
+.layout-outerbox{
+    background-color: rgb(115, 28, 198);
+    background-image: url(./calm.gif);
+    background-size: cover;
+    width: 60em;
+    height: 18em;
+    
+    margin-left:22em;
+    padding-top: 2em;
+    top: 0;
+    display:flex;
+
+}
+.arrange-title{
+    margin-left:6.5em;
+}
+
+.arrange-buttons{
+    margin-left: -21em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:12em;
+    gap:3em;
+
+}
+.creator-button{
+    border-radius: 12px;
+    width:10em;
+    height:4em;
+    border: 2px solid white;
+    
+    margin-bottom:5em;
+    background-color: transparent;
+}
+
+.outer-shell{
+    background-color: lightblue;
+    width:50em;
+    height: 45em;
+    display: flex;
+    margin-left: 28em;
+    margin-top:4em;
+    border-radius: 10px;
+    border: 1em bold white;
+}
+.layout-arrange{
+    display:flex;
+}
+.inner-container{
+    display:flex;
+    flex-direction: column;
+}
+.form-arrange{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2em;
+    background-color: pink;
+    margin-bottom: 2em;
+}
+.Add-submitBtn{
+    width:10em;
+    height:5em;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: .1em solid white;
+    margin-left: 7em;
+}
+
+.submit-btn{
+    margin-top:3em;
+    
+}
+#edit-btns{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 2em;
+    gap:2em;
+}
+
+.form-p{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    display:flex;
+    align-items: start;
+    
+}
+#add-inputs{
+    background-color: white;
+    color:black;
+    width:60em;
+    height:2em;
+    border:none;
+}
+.add-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 3em;
+}
+.outer-cards{
+    background:transparent;
+    border: 1px solid white;
+    width:20em;
+    height:20em;
+}
+.fixed-layout{
+    margin-top: -11em;
+    margin-bottom: 2em;
+}
+.view-attri{
+    color:black;
+    margin-left: 1em;
+    font-size:22px;
+}
+#view{
+    display:flex;
+    justify-content: center;
+}
+.check{
+    margin-left: 1em;
+    margin-top:2em;
+    display: flex;
+    order:5;
+    justify-content: space-evenly;
+}
+img {
+    width:1.5em;
+    
+}
+.view-icons{
+    margin-right: 3em;
+}
+.icon-arrange{
+    margin-left: 9em;
+    
+}
+.view-card{
+    
+    margin-bottom:-25em;
+    width:64em;
+    height:25em ;
+    margin-left: 20em;
+}
+.Edit-deleteBtn{
+    background-color: red;
+    width:15em;
+    height:5em;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border:1px solid white;
+}
+#Edit-submitBtn{
+    width:15em;
+    height:5em;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.creator-iconYT{
+    display: flex;
+    justify-content: center;
+}
+#view-box{
+    background-color: lightgray;
+}
